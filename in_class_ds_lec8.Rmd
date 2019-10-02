@@ -1,0 +1,17 @@
+---
+title: "Lec 8 DS Inclass"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+zscore <- function(x,y) {
+  z <- (x-mean(y))/sd(y)
+  z
+}
+```
+
